@@ -73,24 +73,4 @@ public class Solution {
         return result;
     }
 
-    public static double findMedianSortedArrays2(int[] nums1, int[] nums2) {
-        int p1 = 0;
-        int p2 = 0;
-        int mid = -1;
-        int flag = 0; // 0 表示取一位， 1 取两位平均值
-        // 计算要取一位还是两位
-        int length = nums1.length + nums2.length;
-        if (length % 2 == 0) {
-            flag = 1;
-        }
-        mid = length / 2;
-        double result = 0;
-
-        for (int i = 0; i<= flag + 1; i++){
-            for (int j = 1; j <= mid; j++) {
-
-            }
-        }
-        return result;
-    }
 }
